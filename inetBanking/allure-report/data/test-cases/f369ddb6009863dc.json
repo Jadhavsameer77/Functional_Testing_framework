@@ -1,0 +1,135 @@
+{
+  "uid" : "f369ddb6009863dc",
+  "name" : "addNewCustomer",
+  "fullName" : "com.inetbanking.testCases.TC_AddCutomerTest_003.addNewCustomer",
+  "historyId" : "5bb3b636375b79aa1982e9dc0be82157",
+  "time" : {
+    "start" : 1629368305423,
+    "stop" : 1629368308829,
+    "duration" : 3406
+  },
+  "description" : "Verify Adding Customer in InetBanking......",
+  "descriptionHtml" : "<p>Verify Adding Customer in InetBanking......</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "setup",
+    "time" : {
+      "start" : 1629368302963,
+      "stop" : 1629368305421,
+      "duration" : 2458
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "testStage" : {
+    "description" : "Verify Adding Customer in InetBanking......",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Verify Customer is Added",
+      "time" : {
+        "start" : 1629368305424,
+        "stop" : 1629368308829,
+        "duration" : 3405
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  },
+  "afterStages" : [ {
+    "name" : "tearDown",
+    "time" : {
+      "start" : 1629368308830,
+      "stop" : 1629368308938,
+      "duration" : 108
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "com.inetbanking.testCases.TC_AddCutomerTest_003"
+  }, {
+    "name" : "testClass",
+    "value" : "com.inetbanking.testCases.TC_AddCutomerTest_003"
+  }, {
+    "name" : "testMethod",
+    "value" : "addNewCustomer"
+  }, {
+    "name" : "parentSuite",
+    "value" : "InetBanking"
+  }, {
+    "name" : "suite",
+    "value" : "BankingApp Test Adding Cutomer"
+  }, {
+    "name" : "subSuite",
+    "value" : "com.inetbanking.testCases.TC_AddCutomerTest_003"
+  }, {
+    "name" : "host",
+    "value" : "SameerJ"
+  }, {
+    "name" : "thread",
+    "value" : "18352@SameerJ.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "story",
+    "value" : "Customer Added"
+  }, {
+    "name" : "feature",
+    "value" : "Feature 3: Adding Custoer"
+  }, {
+    "name" : "epic",
+    "value" : "EP003"
+  }, {
+    "name" : "severity",
+    "value" : "critical"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "Browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "f369ddb6009863dc.json",
+  "parameterValues" : [ "chrome" ]
+}

@@ -1,0 +1,15 @@
+{
+  "total" : 1,
+  "items" : [ {
+    "uid" : "f873695751d5d45dbb28788527641ad1",
+    "name" : "InetBanking",
+    "statistic" : {
+      "failed" : 2,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 3,
+      "unknown" : 0,
+      "total" : 6
+    }
+  } ]
+}

@@ -1,0 +1,111 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "InetBanking",
+    "children" : [ {
+      "name" : "BankingApp Test Adding Cutomer",
+      "children" : [ {
+        "name" : "com.inetbanking.testCases.TC_AddCutomerTest_003",
+        "children" : [ {
+          "name" : "setup",
+          "uid" : "f4d5df8cb922553a",
+          "parentUid" : "649141f03e9833a49dac1e27487f5bff",
+          "status" : "broken",
+          "time" : {
+            "start" : 1629374428827,
+            "stop" : 1629374428828,
+            "duration" : 1
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "chrome" ]
+        }, {
+          "name" : "addNewCustomer",
+          "uid" : "1903cb6bed1e3f1d",
+          "parentUid" : "649141f03e9833a49dac1e27487f5bff",
+          "status" : "failed",
+          "time" : {
+            "start" : 1629445757929,
+            "stop" : 1629445761180,
+            "duration" : 3251
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "chrome" ]
+        } ],
+        "uid" : "649141f03e9833a49dac1e27487f5bff"
+      } ],
+      "uid" : "10a02e25ea5cd3ebf87ff3d5c60311ba"
+    }, {
+      "name" : "BankingApp Test Login",
+      "children" : [ {
+        "name" : "com.inetbanking.testCases.TC_LoginTest_001",
+        "children" : [ {
+          "name" : "loginTest",
+          "uid" : "fc1bc33f0c131731",
+          "parentUid" : "934c1fa10354bbd1616eb08e5273e012",
+          "status" : "passed",
+          "time" : {
+            "start" : 1629445733046,
+            "stop" : 1629445735078,
+            "duration" : 2032
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "chrome" ]
+        } ],
+        "uid" : "934c1fa10354bbd1616eb08e5273e012"
+      } ],
+      "uid" : "d6df061d58e60f90ab0254feef644ef1"
+    }, {
+      "name" : "BankingApp Test Login with DD",
+      "children" : [ {
+        "name" : "com.inetbanking.testCases.TC_LoginDDT_002",
+        "children" : [ {
+          "name" : "loginDDT",
+          "uid" : "c2e7456707f7b285",
+          "parentUid" : "cd8498a6355070123a6b28a4fd132e0a",
+          "status" : "passed",
+          "time" : {
+            "start" : 1629445738824,
+            "stop" : 1629445746105,
+            "duration" : 7281
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "chrome", "mngr344602", "tyvUnug" ]
+        }, {
+          "name" : "loginDDT",
+          "uid" : "f0d3ad09e94e0a0e",
+          "parentUid" : "cd8498a6355070123a6b28a4fd132e0a",
+          "status" : "failed",
+          "time" : {
+            "start" : 1629445746109,
+            "stop" : 1629445748866,
+            "duration" : 2757
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "chrome", "mngr345287", "ubEmyty221" ]
+        }, {
+          "name" : "loginDDT",
+          "uid" : "83dc4bb2a6bc023c",
+          "parentUid" : "cd8498a6355070123a6b28a4fd132e0a",
+          "status" : "passed",
+          "time" : {
+            "start" : 1629445748876,
+            "stop" : 1629445755670,
+            "duration" : 6794
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "chrome", "mngr345290", "vAsuvyr" ]
+        } ],
+        "uid" : "cd8498a6355070123a6b28a4fd132e0a"
+      } ],
+      "uid" : "2b39062a599a42bf1370dacd8d01271f"
+    } ],
+    "uid" : "f873695751d5d45dbb28788527641ad1"
+  } ]
+}

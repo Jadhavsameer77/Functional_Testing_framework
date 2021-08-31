@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="1" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-08-27T12:24:01 IST" name="InetBanking" finished-at="2021-08-27T12:24:21 IST" duration-ms="19897">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.inetbanking.runner.TestRunnerLogin@2b556bb2]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.inetbanking.runner.TestRunnerAddingCustomer@314ed053]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2021-08-27T12:24:01 IST" name="BankingApp Test Login" finished-at="2021-08-27T12:24:11 IST" duration-ms="10423">
+      <class name="com.inetbanking.runner.TestRunnerLogin">
+        <test-method is-config="true" signature="setUpClass()[pri:0, instance:com.inetbanking.runner.TestRunnerLogin@2b556bb2]" started-at="2021-08-27T12:24:01 IST" name="setUpClass" finished-at="2021-08-27T12:24:02 IST" duration-ms="364" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.inetbanking.runner.TestRunnerLogin@2b556bb2]" started-at="2021-08-27T12:24:02 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-08-27T12:24:11 IST" duration-ms="9739" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Login Functionality"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[InetBankin Testing]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:com.inetbanking.runner.TestRunnerLogin@2b556bb2]" started-at="2021-08-27T12:24:11 IST" name="tearDownClass" finished-at="2021-08-27T12:24:11 IST" duration-ms="7" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- com.inetbanking.runner.TestRunnerLogin -->
+    </test> <!-- BankingApp Test Login -->
+    <test started-at="2021-08-27T12:24:12 IST" name="BankingApp Test Adding Cutomer" finished-at="2021-08-27T12:24:21 IST" duration-ms="9206">
+      <class name="com.inetbanking.runner.TestRunnerAddingCustomer">
+        <test-method is-config="true" signature="setUpClass()[pri:0, instance:com.inetbanking.runner.TestRunnerAddingCustomer@314ed053]" started-at="2021-08-27T12:24:12 IST" name="setUpClass" finished-at="2021-08-27T12:24:12 IST" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.inetbanking.runner.TestRunnerAddingCustomer@314ed053]" started-at="2021-08-27T12:24:12 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-08-27T12:24:21 IST" duration-ms="9018" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Adding Customer to The Bank Portal"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Inet Banking Testing Demo]"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertTrue(Assert.java:45)
+at org.testng.Assert.assertTrue(Assert.java:55)
+at com.inetbanking.testCases.Customer_Add_BDD_002.manager_verify_cutomer_is_added_or_not(Customer_Add_BDD_002.java:106)
+at ✽.manager verify cutomer is added or not(file:///C:/SAMEER/inetBanking/src/test/resources/Features/custAdd.feature:10)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:com.inetbanking.runner.TestRunnerAddingCustomer@314ed053]" started-at="2021-08-27T12:24:21 IST" name="tearDownClass" finished-at="2021-08-27T12:24:21 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- com.inetbanking.runner.TestRunnerAddingCustomer -->
+    </test> <!-- BankingApp Test Adding Cutomer -->
+  </suite> <!-- InetBanking -->
+</testng-results>

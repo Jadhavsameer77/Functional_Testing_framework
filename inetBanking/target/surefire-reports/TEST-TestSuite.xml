@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="21.166" tests="2" errors="0" skipped="0" failures="1">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.specification.version" value="11"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\bbdnet10177\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_1.18.0.20210603-1206\jars\plexus-classworlds-2.6.0.jar"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://openjdk.java.net/"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="java.vm.specification.version" value="11"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-11.0.12\bin"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B test"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="maven.home" value="C:\SAMEER\inetBanking\EMBEDDED"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\bbdnet10177"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2021-07-20"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-11.0.12"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="11.0.12+8-LTS-237"/>
+    <property name="user.name" value="bbdnet10177"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="18.9"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\BBDNET~1\AppData\Local\Temp\"/>
+    <property name="java.version" value="11.0.12"/>
+    <property name="user.dir" value="C:\SAMEER\inetBanking"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\SAMEER\inetBanking"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-11.0.12\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Java\jdk-11.0.12\bin;C:\Program Files (x86)\CheckPoint\Endpoint Security\Endpoint Common\bin;C:\SAMEER\apache-maven-3.8.1\bin;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\SAMEER\allure-2.14.0\allure-2.14.0\bin;C:\Users\bbdnet10177\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Java\jdk-11.0.12\bin;;."/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vm.version" value="11.0.12+8-LTS-237"/>
+    <property name="classworlds.conf" value="C:\SAMEER\newEclipse\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf5391106587037375988.tmp"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="55.0"/>
+  </properties>
+  <testcase name="runScenario" classname="com.inetbanking.runner.TestRunnerLogin" time="9.788"/>
+  <testcase name="runScenario" classname="com.inetbanking.runner.TestRunnerAddingCustomer" time="9.196">
+    <failure message="expected [true] but found [false]" type="java.lang.AssertionError">java.lang.AssertionError: expected [true] but found [false]
+</failure>
+    <system-out><![CDATA[I am in onFinish method BankingApp Test Login
+I am in onStart method BankingApp Test Adding Cutomer
+I am in onTestStart method runScenario start
+ INFO [main] (Customer_Add_BDD_002.java:31)- URL is open
+ INFO [main] (Customer_Add_BDD_002.java:38)- Manager enter username and password
+ INFO [main] (Customer_Add_BDD_002.java:53)- Login into profile page Successful!!
+ INFO [main] (Customer_Add_BDD_002.java:84)- Manager Added Customer Information!!
+ INFO [main] (Customer_Add_BDD_002.java:104)- test case failed....
+Screenshot taken
+I am in onTestFailure method runScenario failed
+Screenshot captured for test case:runScenario
+]]></system-out>
+    <system-err><![CDATA[?????????????????????????????????????????????????????????????????????????????????????
+? Share your Cucumber Report with your team at https://reports.cucumber.io          ?
+? Activate publishing with one of the following:                                    ?
+?                                                                                   ?
+? src/test/resources/cucumber.properties:          cucumber.publish.enabled=true    ?
+? src/test/resources/junit-platform.properties:    cucumber.publish.enabled=true    ?
+? Environment variable:                            CUCUMBER_PUBLISH_ENABLED=true    ?
+? JUnit:                                           @CucumberOptions(publish = true) ?
+?                                                                                   ?
+? More information at https://cucumber.io/docs/cucumber/environment-variables/      ?
+?                                                                                   ?
+? Disable this message with one of the following:                                   ?
+?                                                                                   ?
+? src/test/resources/cucumber.properties:          cucumber.publish.quiet=true      ?
+? src/test/resources/junit-platform.properties:    cucumber.publish.quiet=true      ?
+?????????????????????????????????????????????????????????????????????????????????????
+Starting ChromeDriver 92.0.4515.43 (8c61b7e2989f2990d42f859cac71319137787cce-refs/branch-heads/4515@{#306}) on port 23230
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Aug 27, 2021 12:24:13 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+</testsuite>

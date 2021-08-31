@@ -1,0 +1,147 @@
+{
+  "uid" : "172651725f3ab104",
+  "name" : "loginDDT",
+  "fullName" : "com.inetbanking.testCases.TC_LoginDDT_002.loginDDT",
+  "historyId" : "2230cb5996137254ad37c195a7de4dcc",
+  "time" : {
+    "start" : 1629370795413,
+    "stop" : 1629370802789,
+    "duration" : 7376
+  },
+  "description" : "Verify Customer Login Using Data Driven Framework",
+  "descriptionHtml" : "<p>Verify Customer Login Using Data Driven Framework</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "setup",
+    "time" : {
+      "start" : 1629370781598,
+      "stop" : 1629370783715,
+      "duration" : 2117
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "testStage" : {
+    "description" : "Verify Customer Login Using Data Driven Framework",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Verify Customer is Login",
+      "time" : {
+        "start" : 1629370795413,
+        "stop" : 1629370802788,
+        "duration" : 7375
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "usr",
+        "value" : "mngr345290"
+      }, {
+        "name" : "pwd",
+        "value" : "vAsuvyr"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  },
+  "afterStages" : [ {
+    "name" : "tearDown",
+    "time" : {
+      "start" : 1629370802791,
+      "stop" : 1629370802868,
+      "duration" : 77
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "com.inetbanking.testCases.TC_LoginDDT_002"
+  }, {
+    "name" : "testClass",
+    "value" : "com.inetbanking.testCases.TC_LoginDDT_002"
+  }, {
+    "name" : "testMethod",
+    "value" : "loginDDT"
+  }, {
+    "name" : "parentSuite",
+    "value" : "InetBanking"
+  }, {
+    "name" : "suite",
+    "value" : "BankingApp Test Login with DD"
+  }, {
+    "name" : "subSuite",
+    "value" : "com.inetbanking.testCases.TC_LoginDDT_002"
+  }, {
+    "name" : "host",
+    "value" : "SameerJ"
+  }, {
+    "name" : "thread",
+    "value" : "7988@SameerJ.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "feature",
+    "value" : "Feature 2: Login Customer Through DDF"
+  }, {
+    "name" : "story",
+    "value" : "Customer Login"
+  }, {
+    "name" : "epic",
+    "value" : "EP002"
+  }, {
+    "name" : "severity",
+    "value" : "critical"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "Browser",
+    "value" : "chrome"
+  }, {
+    "name" : "arg0",
+    "value" : "mngr345290"
+  }, {
+    "name" : "arg1",
+    "value" : "vAsuvyr"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "172651725f3ab104.json",
+  "parameterValues" : [ "chrome", "mngr345290", "vAsuvyr" ]
+}

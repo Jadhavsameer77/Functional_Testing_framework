@@ -1,0 +1,64 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "unknown error: net::ERR_NAME_NOT_RESOLVED\n  (Session info: chrome=92.0.4515.107)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'SAMEERJ', ip: '192.168.0.5', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.12'\nDriver info: org.openqa.selenium.remote.RemoteWebDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.107, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: /tmp/.com.google.Chrome.g4Wm9i}, goog:chromeOptions: {debuggerAddress: localhost:43697}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true, webdriver.remote.sessionid: c1c63472fe46f2dd8e0139b6334...}\nSession ID: c1c63472fe46f2dd8e0139b6334e2399",
+      "children" : [ {
+        "name" : "setup",
+        "uid" : "f4d5df8cb922553a",
+        "parentUid" : "881e7cc2c527a812a12799f9acaf7387",
+        "status" : "broken",
+        "time" : {
+          "start" : 1629374428827,
+          "stop" : 1629374428828,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "chrome" ]
+      } ],
+      "uid" : "881e7cc2c527a812a12799f9acaf7387"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  }, {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "java.lang.AssertionError",
+      "children" : [ {
+        "name" : "loginDDT",
+        "uid" : "f0d3ad09e94e0a0e",
+        "parentUid" : "8c5a12edd58a5b39ca043c7c2ab86098",
+        "status" : "failed",
+        "time" : {
+          "start" : 1629445746109,
+          "stop" : 1629445748866,
+          "duration" : 2757
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "chrome", "mngr345287", "ubEmyty221" ]
+      } ],
+      "uid" : "8c5a12edd58a5b39ca043c7c2ab86098"
+    }, {
+      "name" : "expected [true] but found [false]",
+      "children" : [ {
+        "name" : "addNewCustomer",
+        "uid" : "1903cb6bed1e3f1d",
+        "parentUid" : "067aa11ae245eca950dc984999fefd6d",
+        "status" : "failed",
+        "time" : {
+          "start" : 1629445757929,
+          "stop" : 1629445761180,
+          "duration" : 3251
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "chrome" ]
+      } ],
+      "uid" : "067aa11ae245eca950dc984999fefd6d"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ]
+}

@@ -1,0 +1,119 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "setup",
+    "uid" : "f4d5df8cb922553a",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "broken",
+    "time" : {
+      "start" : 1629374428827,
+      "stop" : 1629374428828,
+      "duration" : 1
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "chrome" ]
+  }, {
+    "name" : "EP001",
+    "children" : [ {
+      "name" : "Feature 1: Login Customer with valid creds....",
+      "children" : [ {
+        "name" : "Customer Login",
+        "children" : [ {
+          "name" : "loginTest",
+          "uid" : "fc1bc33f0c131731",
+          "parentUid" : "479519e4d3ed66477418e6b198e11e1e",
+          "status" : "passed",
+          "time" : {
+            "start" : 1629445733046,
+            "stop" : 1629445735078,
+            "duration" : 2032
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "chrome" ]
+        } ],
+        "uid" : "479519e4d3ed66477418e6b198e11e1e"
+      } ],
+      "uid" : "42cbab3ae126e71e7bcb2f94047fcea2"
+    } ],
+    "uid" : "f416afe67be4bfdcd7f18b618c24be1b"
+  }, {
+    "name" : "EP002",
+    "children" : [ {
+      "name" : "Feature 2: Login Customer Through DDF",
+      "children" : [ {
+        "name" : "Customer Login",
+        "children" : [ {
+          "name" : "loginDDT",
+          "uid" : "c2e7456707f7b285",
+          "parentUid" : "4f9a7d3ba963eeea064313ae41b96de0",
+          "status" : "passed",
+          "time" : {
+            "start" : 1629445738824,
+            "stop" : 1629445746105,
+            "duration" : 7281
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "chrome", "mngr344602", "tyvUnug" ]
+        }, {
+          "name" : "loginDDT",
+          "uid" : "f0d3ad09e94e0a0e",
+          "parentUid" : "4f9a7d3ba963eeea064313ae41b96de0",
+          "status" : "failed",
+          "time" : {
+            "start" : 1629445746109,
+            "stop" : 1629445748866,
+            "duration" : 2757
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "chrome", "mngr345287", "ubEmyty221" ]
+        }, {
+          "name" : "loginDDT",
+          "uid" : "83dc4bb2a6bc023c",
+          "parentUid" : "4f9a7d3ba963eeea064313ae41b96de0",
+          "status" : "passed",
+          "time" : {
+            "start" : 1629445748876,
+            "stop" : 1629445755670,
+            "duration" : 6794
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "chrome", "mngr345290", "vAsuvyr" ]
+        } ],
+        "uid" : "4f9a7d3ba963eeea064313ae41b96de0"
+      } ],
+      "uid" : "a1c19a0628df5aba86ff6783d6f6ec0a"
+    } ],
+    "uid" : "465df028f38019b5402a287795e07887"
+  }, {
+    "name" : "EP003",
+    "children" : [ {
+      "name" : "Feature 3: Adding Custoer",
+      "children" : [ {
+        "name" : "Customer Added",
+        "children" : [ {
+          "name" : "addNewCustomer",
+          "uid" : "1903cb6bed1e3f1d",
+          "parentUid" : "2d86a86f1f058c3bbff816b67a1b0645",
+          "status" : "failed",
+          "time" : {
+            "start" : 1629445757929,
+            "stop" : 1629445761180,
+            "duration" : 3251
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "chrome" ]
+        } ],
+        "uid" : "2d86a86f1f058c3bbff816b67a1b0645"
+      } ],
+      "uid" : "4dbb55159445991639624be031f7ab39"
+    } ],
+    "uid" : "6090a72fb8ca5ce95798a16bf892f490"
+  } ]
+}

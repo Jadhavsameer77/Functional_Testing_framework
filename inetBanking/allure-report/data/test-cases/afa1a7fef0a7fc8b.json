@@ -1,0 +1,135 @@
+{
+  "uid" : "afa1a7fef0a7fc8b",
+  "name" : "loginTest",
+  "fullName" : "com.inetbanking.testCases.TC_LoginTest_001.loginTest",
+  "historyId" : "5b91c22de7bbf59a21ee1f18f43db9c",
+  "time" : {
+    "start" : 1629374860167,
+    "stop" : 1629374862132,
+    "duration" : 1965
+  },
+  "description" : "Verify Login Customer in InetBanking......",
+  "descriptionHtml" : "<p>Verify Login Customer in InetBanking......</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "setup",
+    "time" : {
+      "start" : 1629374856685,
+      "stop" : 1629374860103,
+      "duration" : 3418
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "testStage" : {
+    "description" : "Verify Login Customer in InetBanking......",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Verify Customer is login successfully",
+      "time" : {
+        "start" : 1629374860183,
+        "stop" : 1629374862129,
+        "duration" : 1946
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  },
+  "afterStages" : [ {
+    "name" : "tearDown",
+    "time" : {
+      "start" : 1629374862258,
+      "stop" : 1629374862330,
+      "duration" : 72
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "com.inetbanking.testCases.TC_LoginTest_001"
+  }, {
+    "name" : "testClass",
+    "value" : "com.inetbanking.testCases.TC_LoginTest_001"
+  }, {
+    "name" : "testMethod",
+    "value" : "loginTest"
+  }, {
+    "name" : "parentSuite",
+    "value" : "InetBanking"
+  }, {
+    "name" : "suite",
+    "value" : "BankingApp Test Login"
+  }, {
+    "name" : "subSuite",
+    "value" : "com.inetbanking.testCases.TC_LoginTest_001"
+  }, {
+    "name" : "host",
+    "value" : "SameerJ"
+  }, {
+    "name" : "thread",
+    "value" : "23388@SameerJ.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "feature",
+    "value" : "Feature 1: Login Customer with valid creds...."
+  }, {
+    "name" : "story",
+    "value" : "Customer Login"
+  }, {
+    "name" : "epic",
+    "value" : "EP001"
+  }, {
+    "name" : "severity",
+    "value" : "critical"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "Browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "afa1a7fef0a7fc8b.json",
+  "parameterValues" : [ "chrome" ]
+}

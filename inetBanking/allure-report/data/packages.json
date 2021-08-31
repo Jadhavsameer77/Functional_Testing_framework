@@ -1,0 +1,99 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "com.inetbanking.testCases",
+    "children" : [ {
+      "name" : "TC_AddCutomerTest_003",
+      "children" : [ {
+        "name" : "setup",
+        "uid" : "f4d5df8cb922553a",
+        "parentUid" : "01e957d535fb2ce42298fe009e6a5ef6",
+        "status" : "broken",
+        "time" : {
+          "start" : 1629374428827,
+          "stop" : 1629374428828,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "chrome" ]
+      }, {
+        "name" : "addNewCustomer",
+        "uid" : "1903cb6bed1e3f1d",
+        "parentUid" : "01e957d535fb2ce42298fe009e6a5ef6",
+        "status" : "failed",
+        "time" : {
+          "start" : 1629445757929,
+          "stop" : 1629445761180,
+          "duration" : 3251
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "chrome" ]
+      } ],
+      "uid" : "01e957d535fb2ce42298fe009e6a5ef6"
+    }, {
+      "name" : "TC_LoginTest_001",
+      "children" : [ {
+        "name" : "loginTest",
+        "uid" : "fc1bc33f0c131731",
+        "parentUid" : "0b5f730727717e4ec3fbcc620058e925",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629445733046,
+          "stop" : 1629445735078,
+          "duration" : 2032
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "chrome" ]
+      } ],
+      "uid" : "0b5f730727717e4ec3fbcc620058e925"
+    }, {
+      "name" : "TC_LoginDDT_002",
+      "children" : [ {
+        "name" : "loginDDT",
+        "uid" : "c2e7456707f7b285",
+        "parentUid" : "a163f71e642324606d761b40e4df975f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629445738824,
+          "stop" : 1629445746105,
+          "duration" : 7281
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "chrome", "mngr344602", "tyvUnug" ]
+      }, {
+        "name" : "loginDDT",
+        "uid" : "f0d3ad09e94e0a0e",
+        "parentUid" : "a163f71e642324606d761b40e4df975f",
+        "status" : "failed",
+        "time" : {
+          "start" : 1629445746109,
+          "stop" : 1629445748866,
+          "duration" : 2757
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "chrome", "mngr345287", "ubEmyty221" ]
+      }, {
+        "name" : "loginDDT",
+        "uid" : "83dc4bb2a6bc023c",
+        "parentUid" : "a163f71e642324606d761b40e4df975f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629445748876,
+          "stop" : 1629445755670,
+          "duration" : 6794
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "chrome", "mngr345290", "vAsuvyr" ]
+      } ],
+      "uid" : "a163f71e642324606d761b40e4df975f"
+    } ],
+    "uid" : "com.inetbanking.testCases"
+  } ]
+}
