@@ -105,7 +105,7 @@ and download binary zip archive
 
 2. Next step is to run jenkins server for that 
     * For creating jenkins server execute command into cmd
-      * ``java -jar -jenkins.war``
+      * ``java -jar jenkins.war``
       * Bydefault it will run on 
          ``http://localhost:8080``
     * Open jenkins using port 8080
