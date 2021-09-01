@@ -1,4 +1,4 @@
-#Framework Design as per CI-CD Pipeline
+# Framework Design as per CI-CD Pipeline
 
 <!-- TABLE OF CONTENTS -->
 <details open="open">
@@ -18,7 +18,7 @@
   </ol>
 </details>
 
-##About Framework
+## About Framework
 
 Framework is build with hybrid framework which is combination of TestNG and BDD Framework. It is easy to use and for arranging testcases.
 
@@ -30,11 +30,11 @@ Framework is execute in virtual machine using docker container which help to exe
 
 Allure report is used in this project for reporting which shows detailed summary of report.
 
-##Getting Started 
+## Getting Started 
 
-###Prerequisites
+### Prerequisites
 
-####System Configuration
+#### System Configuration
 * jdk 8 and above
 * jenkins 
 * Allure
@@ -42,7 +42,7 @@ Allure report is used in this project for reporting which shows detailed summary
 * Docker
 * Eclipse or IntelliJ
 
-###Installation
+### Installation
 * First we need to install jdk in system for that go to: 
 
    <https://www.oracle.com/in/java/technologies/javase-downloads.html> 
@@ -87,7 +87,7 @@ and download binary zip archive
   
   then download ubuntu LTS version from Microsoft store.
 
-##Usage
+## Usage
 
 1. To execute framework first we need to ready docker container for that first we need to pull docker images and run docker container.
     * To pull docker images open powershell and run command.
