@@ -52,7 +52,7 @@ Allure report is used in this project for reporting which shows detailed summary
 2. Open jenkins server 
 3. Add project into jenkins and build project OR Execute without Jenkins follow the steps
 4. Execute Targeted testng.xml file using testng runner OR
-5. 3.mvn test package [Running all cucumber tests / it will execute all testng.xml's playlist files]
+5. mvn test package [Running all cucumber tests / it will execute all testng.xml's playlist files]
 
 
 
